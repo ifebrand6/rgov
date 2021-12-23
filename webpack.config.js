@@ -28,6 +28,7 @@ module.exports = {
   plugins: [
     new HTMLWebpackPlugin({
       template: './src/participate.html',
+      // template: './src/test.html',
       filename: 'index.html',
     }),
     // new HTMLWebpackPlugin({
